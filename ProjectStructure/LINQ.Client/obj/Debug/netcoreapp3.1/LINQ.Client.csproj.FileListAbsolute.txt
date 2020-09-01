@@ -1,0 +1,13 @@
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\bin\Debug\netcoreapp3.1\LINQ.Client.exe
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\obj\Debug\netcoreapp3.1\LINQ.Client.csprojAssemblyReference.cache
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\obj\Debug\netcoreapp3.1\LINQ.Client.AssemblyInfoInputs.cache
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\obj\Debug\netcoreapp3.1\LINQ.Client.AssemblyInfo.cs
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\bin\Debug\netcoreapp3.1\LINQ.Client.deps.json
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\bin\Debug\netcoreapp3.1\LINQ.Client.runtimeconfig.json
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\bin\Debug\netcoreapp3.1\LINQ.Client.runtimeconfig.dev.json
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\bin\Debug\netcoreapp3.1\LINQ.Client.dll
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\bin\Debug\netcoreapp3.1\LINQ.Client.pdb
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\obj\Debug\netcoreapp3.1\LINQ.Client.csproj.CopyComplete
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\obj\Debug\netcoreapp3.1\LINQ.Client.dll
+C:\Users\Denis\Documents\GitHub\bsa_lecture2_linq\Lecture2_LINQ\LINQ.Client\obj\Debug\netcoreapp3.1\LINQ.Client.pdb
