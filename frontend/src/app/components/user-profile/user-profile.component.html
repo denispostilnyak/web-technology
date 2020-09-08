@@ -1,0 +1,72 @@
+<mat-card class="main-content align-center">
+  <div *ngIf="loading" class="mat-spinner-wrapper">
+    <mat-spinner></mat-spinner>
+  </div>
+  <div class="avatar-container" (click)="file.click()">
+    <input hidden class="file-hide" #file accept="image/*" type="file" (change)="handleFileInput($event.target)">
+    <img class="avatar avatar-style" src="{{user.avatar}}" alt="Here should be an avatar">
+    <div class="img-text">
+      Upload
+    </div>
+  </div>
+  <form name="userForm" #userForm="ngForm" class="main-content">
+    <mat-form-field>
+      <input name="email" [(ngModel)]="user.email" #email="ngModel" matInput placeholder="Email"
+        (change)="checkEmailOrUserName()" required pattern="[a-zA-Z0-9]+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}">
+      <div [hidden]="email.valid || email.untouched" class="alert alert-danger">
+        Incorrect email
+      </div>
+      <div *ngIf="!isEmailUnique" class="alert alert-danger">
+        Existing email
+      </div>
+    </mat-form-field>
+    <mat-form-field>
+      <input name="username" [(ngModel)]="user.userName" #username="ngModel" (change)="checkEmailOrUserName()" required
+        pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" matInput placeholder="Username">
+      <div [hidden]="username.valid || username.untouched" class="alert alert-danger">
+        Incorrect username
+      </div>
+      <div *ngIf="!isUserNameUnique" class="alert alert-danger">
+        Existing userName
+      </div>
+    </mat-form-field>
+  </form>
+  <div class="buttons">
+    <button [disabled]="email.invalid || username.invalid || !isUserNameUnique || !isEmailUnique" mat-raised-button
+      color="primary" (click)="saveNewInfo()">
+      Save
+    </button>
+    <button mat-raised-button (click)="goBack()">
+      Back
+    </button>
+    <button id="reset" mat-raised-button mat-button color="warn" (click)="resetPassword()">
+      Reset Password
+    </button>
+  </div>
+  <div *ngIf="isResetPasswordVisible">
+    <form name="userForm" #userForm="ngForm" class="main-content">
+      <mat-form-field>
+        <input name="newPassword" [(ngModel)]="newPassword" #password="ngModel" matInput
+          [type]="hidePass ? 'password' : 'text'" (ngModelChange)="onPassCheck($event)" matInput
+          placeholder="New Password">
+        <mat-icon matSuffix (click)="hidePass = !hidePass">{{hidePass ? 'visibility' : 'visibility_off'}}</mat-icon>
+      </mat-form-field>
+      <mat-form-field>
+        <input name="repeatePassword" [(ngModel)]="repeatePassword" #password="ngModel"
+          (ngModelChange)="onPassCheck($event)" matInput [type]="hidePass ? 'password' : 'text'" matInput
+          placeholder="Repeate Password">
+        <mat-icon matSuffix (click)="hidePass = !hidePass">{{hidePass ? 'visibility' : 'visibility_off'}}</mat-icon>
+      </mat-form-field>
+      <div *ngIf="!isPasswordsMatch" class="alert alert-danger">
+        Passwords not match
+      </div>
+      <div class="buttons">
+        <button [disabled]="!isPasswordsMatch" mat-raised-button color="primary"
+          (click)="changePassword()">Confirm</button>
+      </div>
+    </form>
+  </div>
+  <div *ngIf="isChangedSuccesfully" class="alert alert-success">
+    Succesfully changed!
+  </div>
+</mat-card>

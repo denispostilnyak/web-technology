@@ -1,0 +1,17 @@
+<h2 mat-dialog-title class="title">Edit post</h2>
+<div mat-dialog-content>
+    <form name="editForm" #authForm="ngForm" class="main-content">
+        <mat-form-field>
+            <input name="editBody" [(ngModel)]="body" #inEmail="ngModel" matInput placeholder="Body">
+        </mat-form-field>
+        <img mat-card-image *ngif="previewImage" mat-card-image src="{{previewImage}}" alt="Photo">
+        <input hidden #file accept="image/*" type="file" (change)="loadImage($event.target)">
+        <button mat-icon-button color="accent" (click)="file.click()">
+            <mat-icon aria-label="Choose an image">image</mat-icon>
+        </button>
+    </form>
+</div>
+<div class="actions">
+    <button mat-raised-button (click)="close()">Back</button>
+    <button mat-raised-button color="primary" (click)="save()">Save</button>
+</div>

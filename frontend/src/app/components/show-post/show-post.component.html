@@ -1,0 +1,16 @@
+<mat-card class="post-create-container" [ngClass]="{'post-with-comments': showComments}">
+    <div *ngIf="loading" class="mat-spinner-wrapper">
+        <mat-spinner></mat-spinner>
+    </div>
+    <div *ngIf="!loading">
+        <mat-card-header>
+            <img mat-card-avatar src="{{post.author.avatar}}" alt="Avatar">
+            <mat-card-title>{{post.author.userName}}</mat-card-title>
+            <div class="date">{{post.createdAt | date:'d/M/yy, h:mm a'}}</div>
+        </mat-card-header>
+        <img mat-card-image *ngIf="post.previewImage" mat-card-image src="{{post.previewImage}}" alt="Photo">
+        <mat-card-content>
+            <p>{{post.body}}</p>
+        </mat-card-content>
+    </div>
+</mat-card>

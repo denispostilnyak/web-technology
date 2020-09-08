@@ -1,0 +1,11 @@
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.deps.json
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.dll
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.pdb
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.csprojAssemblyReference.cache
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.AssemblyInfoInputs.cache
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.AssemblyInfo.cs
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.dll
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.pdb
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.runtimeconfig.json
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.runtimeconfig.dev.json
+C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.genruntimeconfig.cache
