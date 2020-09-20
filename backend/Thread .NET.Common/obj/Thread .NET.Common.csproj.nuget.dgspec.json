@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {}
+    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
+    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
         "projectName": "Thread .NET.Common",
-        "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
+        "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\obj\\",
+        "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

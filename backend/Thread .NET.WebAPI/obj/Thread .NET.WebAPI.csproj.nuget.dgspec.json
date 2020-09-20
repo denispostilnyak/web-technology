@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj": {}
+    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj": {
+    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
         "projectName": "Thread .NET.BLL",
-        "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
+        "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\obj\\",
+        "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
+              "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
+                "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
               },
-              "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj"
+              "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
+                "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj"
               }
             }
           }
@@ -105,14 +105,14 @@
         }
       }
     },
-    "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
+    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
         "projectName": "Thread .NET.Common",
-        "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
+        "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\obj\\",
+        "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -195,14 +195,14 @@
         }
       }
     },
-    "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
+    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
         "projectName": "Thread .NET.DAL",
-        "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
+        "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -221,8 +221,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
+              "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
+                "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
               }
             }
           }
@@ -285,14 +285,14 @@
         }
       }
     },
-    "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj": {
+    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj",
         "projectName": "Thread .NET.WebAPI",
-        "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj",
+        "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.WebAPI\\Thread .NET.WebAPI.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -311,11 +311,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj"
+              "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj": {
+                "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj"
               },
-              "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj"
+              "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
+                "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj"
               }
             }
           }

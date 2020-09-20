@@ -8,6 +8,8 @@ import { AuthenticationService } from '../../services/auth.service';
 import { ImgurService } from '../../services/imgur.service';
 import { switchMap, takeUntil, map } from 'rxjs/operators';
 import { SnackBarService } from '../../services/snack-bar.service';
+import { PostService } from '../../services/post.service';
+import { Post } from 'src/app/models/post/post';
 
 @Component({
     selector: 'app-user-profile',
@@ -28,10 +30,25 @@ export class UserProfileComponent implements OnInit, OnDestroy {
     public repeatePassword: string;
     public isPasswordsMatch: boolean = true;
     public isChangedSuccesfully: boolean;
+    public posts: Post[];
+
+    public latitudeMap: number = 50.488508343627736;
+    public longitudeMap: number = 30.38167589418529;
+
+    public chartOptions = {
+        scaleShowVerticalLines: false,
+        responsive: true
+    };
+    public chartLabels = [];
+    public chartType = 'bar';
+    public chartLegend = true;
+    public chartData = [];
+    public loadingChart = true;
 
     private unsubscribe$ = new Subject<void>();
 
     constructor(
+        private postService: PostService,
         private location: Location,
         private userService: UserService,
         private snackBarService: SnackBarService,
@@ -43,7 +60,12 @@ export class UserProfileComponent implements OnInit, OnDestroy {
         this.authService
             .getUser()
             .pipe(takeUntil(this.unsubscribe$))
-            .subscribe((user) => (this.user = this.userService.copyUser(user)), (error) => this.snackBarService.showErrorMessage(error));
+            .subscribe((user) => {
+                this.user = this.userService.copyUser(user);
+                this.latitudeMap = !this.user.latitude ? this.latitudeMap : this.user.latitude;
+                this.longitudeMap = !this.user.longitude ? this.longitudeMap : this.user.longitude;
+                this.initializeChart();
+            }, (error) => this.snackBarService.showErrorMessage(error));
         this.userService.getUsers().pipe(takeUntil(this.unsubscribe$)).subscribe(
             (users) => (
                 this.users = users.body
@@ -53,6 +75,42 @@ export class UserProfileComponent implements OnInit, OnDestroy {
     public ngOnDestroy() {
         this.unsubscribe$.next();
         this.unsubscribe$.complete();
+    }
+
+    public initializeChart() {
+        this.postService
+            .getPosts()
+            .pipe(takeUntil(this.unsubscribe$))
+            .subscribe(
+                (resp) => {
+                    let userPosts = resp.body.filter(post => post.isDeleted == false && post.author.id == this.user.id);
+                    let createdDates = userPosts.map(post => post.createdAt);
+                    let monthes = createdDates.map(date => new Date(date).getMonth() + 1);
+                    let uniqueMonthes = Array.from(new Set(monthes));
+                    let uniqueMonthesString = uniqueMonthes.map(month => { return month.toLocaleString() + ' month' });
+                    this.chartLabels = uniqueMonthesString;
+                    let data = {};
+                    let previous;
+                    monthes.forEach(month => {
+                        if (month == previous) {
+                            data[month] = data[month] + 1;
+                        } else {
+                            data[month] = 1;
+                        }
+                        previous = month;
+                    });
+                    let result = uniqueMonthes.map(month => {
+                        return data[month];
+                    });
+                    result.push(0);
+                    result.push(11);
+                    this.chartData = [{
+                        data: result, label: 'posts'
+                    }];
+                    this.loadingChart = false;
+                },
+                (error) => { }
+            );
     }
 
     public checkEmailOrUserName() {
@@ -88,6 +146,9 @@ export class UserProfileComponent implements OnInit, OnDestroy {
     }
 
     public saveNewInfo() {
+        this.user.latitude = this.latitudeMap;
+        this.user.longitude = this.longitudeMap;
+
         const userSubscription = !this.imageFile
             ? this.userService.updateUser(this.user)
             : this.imgurService.uploadToImgur(this.imageFile, 'title').pipe(
@@ -126,6 +187,11 @@ export class UserProfileComponent implements OnInit, OnDestroy {
         const reader = new FileReader();
         reader.addEventListener('load', () => (this.user.avatar = reader.result as string));
         reader.readAsDataURL(this.imageFile);
+    }
+
+    public onChoseLocation(event) {
+        this.latitudeMap = event.coords.lat;
+        this.longitudeMap = event.coords.lng;
     }
 
     public goBack = () => this.location.back();

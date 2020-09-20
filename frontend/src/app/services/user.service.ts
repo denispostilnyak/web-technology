@@ -25,8 +25,10 @@ export class UserService {
         return this.httpService.putFullRequest<User>(`${this.routePrefix}`, user);
     }
 
-    public copyUser({ avatar, email, userName, id }: User) {
+    public copyUser({ longitude, latitude, avatar, email, userName, id }: User) {
         return {
+            longitude,
+            latitude,
             avatar,
             email,
             userName,

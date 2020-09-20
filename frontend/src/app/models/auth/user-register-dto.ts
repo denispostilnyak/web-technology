@@ -3,4 +3,6 @@ export interface UserRegisterDto {
     password: string;
     email: string;
     avatar: string;
+    latitude: number;
+    longitude: number;
 }

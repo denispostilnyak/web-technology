@@ -26,7 +26,7 @@ export class AuthDialogComponent implements OnInit, OnDestroy {
         @Inject(MAT_DIALOG_DATA) public data: any,
         private authService: AuthenticationService,
         private snackBarService: SnackBarService
-    ) {}
+    ) { }
 
     public ngOnInit() {
         this.avatar = 'https://avatars.mds.yandex.net/get-ott/374297/2a000001616b87458162c9216ccd5144e94d/orig';
@@ -51,7 +51,10 @@ export class AuthDialogComponent implements OnInit, OnDestroy {
 
     public signUp() {
         this.authService
-            .register({ userName: this.userName, password: this.password, email: this.email, avatar: this.avatar })
+            .register({
+                userName: this.userName, password: this.password, email: this.email,
+                avatar: this.avatar, latitude: 50.4885, longitude: 30.3816
+            })
             .pipe(takeUntil(this.unsubscribe$))
             .subscribe((response) => this.dialogRef.close(response), (error) => this.snackBarService.showErrorMessage(error));
     }

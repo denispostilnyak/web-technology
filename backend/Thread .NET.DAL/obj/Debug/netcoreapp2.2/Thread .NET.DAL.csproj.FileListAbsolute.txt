@@ -12,3 +12,17 @@ C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.DAL\obj\Debug\net
 C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.DAL.runtimeconfig.json
 C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.DAL.runtimeconfig.dev.json
 C:\Users\Denis\Documents\GitHub\thread-net\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.genruntimeconfig.cache
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.DAL.deps.json
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.DAL.runtimeconfig.json
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.DAL.runtimeconfig.dev.json
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.DAL.dll
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.DAL.pdb
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.Common.dll
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\bin\Debug\netcoreapp2.2\Thread .NET.Common.pdb
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.csprojAssemblyReference.cache
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.AssemblyInfoInputs.cache
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.AssemblyInfo.cs
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.csproj.CopyComplete
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.dll
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.pdb
+C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.DAL\obj\Debug\netcoreapp2.2\Thread .NET.DAL.genruntimeconfig.cache

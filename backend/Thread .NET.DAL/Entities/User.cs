@@ -11,5 +11,7 @@ namespace Thread_.NET.DAL.Entities
         public string UserName { get; set; }
         public string Password { get; set; }
         public string Salt { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
     }
 }

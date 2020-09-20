@@ -70,3 +70,19 @@
     Succesfully changed!
   </div>
 </mat-card>
+<div class="map">
+  <agm-map [latitude]="latitudeMap" [longitude]="longitudeMap" (mapClick)="onChoseLocation($event)">
+    <agm-marker [latitude]="latitudeMap" [longitude]="longitudeMap">
+    </agm-marker>
+  </agm-map>
+</div>
+<div class="map">
+  <div *ngIf="!loadingChart" style="display: block;">
+    <canvas baseChart [datasets]="chartData" [labels]="chartLabels" [options]="chartOptions" [legend]="chartLegend"
+      [chartType]="chartType">
+    </canvas>
+  </div>
+  <div *ngIf="loadingChart">
+    <mat-spinner></mat-spinner>
+  </div>
+</div>

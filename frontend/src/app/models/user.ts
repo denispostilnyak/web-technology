@@ -3,4 +3,6 @@ export interface User {
     email: string;
     userName: string;
     avatar: string;
+    latitude: number;
+    longitude: number;
 }

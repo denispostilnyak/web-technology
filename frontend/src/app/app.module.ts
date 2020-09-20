@@ -22,10 +22,16 @@ import { ToastrModule } from 'ngx-toastr';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { ScrollingModule as ExperimentalScrollingModule } from '@angular/cdk-experimental/scrolling';
 import { VirtualScrollerModule } from 'ngx-virtual-scroller';
+import { AgmCoreModule } from '@agm/core';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
     declarations: [AppComponent, MainThreadComponent, PostComponent, HomeComponent, UserProfileComponent, EditPostDialogComponent, ShowPostComponent, AuthDialogComponent, CommentComponent],
-    imports: [BrowserModule, ScrollingModule, VirtualScrollerModule, ExperimentalScrollingModule, BrowserAnimationsModule, HttpClientModule, MaterialComponentsModule, RouterModule.forRoot(AppRoutes), ToastrModule.forRoot(), FormsModule],
+    imports: [BrowserModule, ScrollingModule, VirtualScrollerModule, ExperimentalScrollingModule, BrowserAnimationsModule,
+        HttpClientModule, MaterialComponentsModule, RouterModule.forRoot(AppRoutes), ToastrModule.forRoot(),
+        AgmCoreModule.forRoot({
+            apiKey: 'AIzaSyCHvhaf_OpR9wni5fuE5QYhh2v0XGK4rBg'
+        }), FormsModule, ChartsModule],
     exports: [MaterialComponentsModule],
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

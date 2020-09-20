@@ -87,6 +87,9 @@ namespace Thread_.NET.BLL.Services
                 }
             }
 
+            userEntity.Latitude = userDto.Latitude;
+            userEntity.Longitude = userDto.Longitude;
+
             _context.Users.Update(userEntity);
             await _context.SaveChangesAsync();
         }

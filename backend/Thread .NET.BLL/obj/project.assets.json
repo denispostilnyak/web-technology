@@ -7603,11 +7603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
       "projectName": "Thread .NET.BLL",
-      "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
+      "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\Thread .NET.BLL.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.BLL\\obj\\",
+      "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7626,11 +7626,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
-              "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
+            "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
             },
-            "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
-              "projectPath": "C:\\Users\\Denis\\Documents\\GitHub\\thread-net\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj"
+            "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
+              "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj"
             }
           }
         }

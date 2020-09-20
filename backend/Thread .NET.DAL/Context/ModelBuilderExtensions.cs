@@ -63,14 +63,14 @@ namespace Thread_.NET.DAL.Context
             var posts = GenerateRandomPosts(users, previewImages);
             var comments = GenerateRandomComments(users, posts);
             var postReactions = GenerateRandomPostReactions(posts, users);
-            var commentReactions = GenerateRandomCommentReactions(comments, users);
+           // var commentReactions = GenerateRandomCommentReactions(comments, users);
 
             modelBuilder.Entity<Image>().HasData(avatars.Concat(previewImages));
             modelBuilder.Entity<User>().HasData(users);
             modelBuilder.Entity<Post>().HasData(posts);
             modelBuilder.Entity<Comment>().HasData(comments);
             modelBuilder.Entity<PostReaction>().HasData(postReactions);
-            modelBuilder.Entity<CommentReaction>().HasData(commentReactions);
+           // modelBuilder.Entity<CommentReaction>().HasData(commentReactions);
         }
 
         public static ICollection<Image> GenerateRandomAvatars(out int lastImageId)
