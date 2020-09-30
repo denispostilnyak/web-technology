@@ -4,7 +4,7 @@
 
 export const environment = {
     production: false,
-    apiUrl: 'https://localhost:44344',
+    apiUrl: 'http://159.89.151.128:8000',
     imgurClientId: '5c91c55ea818051'
 };
 

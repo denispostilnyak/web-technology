@@ -79,7 +79,7 @@ namespace Thread_.NET.Extensions
 
         public static void ConfigureJwt(this IServiceCollection services, IConfiguration configuration)
         {
-            var secretKey = configuration["SecretJWTKey"]; // get value from system environment
+            var secretKey = configuration["JwtIssuerOptions:SecretJWTKey"]; // get value from system environment
             var signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(secretKey));
 
             // jwt wire up

@@ -33,7 +33,7 @@
       <button mat-raised-button color="red" (click)="closeSharing()">Close</button>
     </div>
     <div *ngIf="isLinkVisible">
-      <a href="http://localhost:4200/post/{{post.id}}">Follow_this</a>
+      <a href="http://159.89.151.128:4200/post/{{post.id}}">Follow_this</a>
       <button mat-raised-button color="red" (click)="closeSharing()">Close</button>
     </div>
     <button *ngIf="isAuthor()" mat-icon-button color="primary" (click)="delete()">

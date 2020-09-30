@@ -20,3 +20,15 @@ C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.Common\obj\Debug\netco
 C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.dll
 C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.pdb
 C:\Users\Denis\Desktop\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.genruntimeconfig.cache
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.deps.json
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.runtimeconfig.json
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.runtimeconfig.dev.json
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.dll
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\bin\Debug\netcoreapp2.2\Thread .NET.Common.pdb
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.csprojAssemblyReference.cache
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.AssemblyInfoInputs.cache
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.AssemblyInfo.cs
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.dll
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.pdb
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.genruntimeconfig.cache
+C:\Users\Work\Documents\web-technology\backend\Thread .NET.Common\obj\Debug\netcoreapp2.2\Thread .NET.Common.csproj.CoreCompileInputs.cache

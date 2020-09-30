@@ -201,7 +201,7 @@ export class MainThreadComponent implements OnInit, OnDestroy {
     }
 
     public registerHub() {
-        this.postHub = new HubConnectionBuilder().withUrl('https://localhost:44344/notifications/post').build();
+        this.postHub = new HubConnectionBuilder().withUrl('http://159.89.151.128:8000/api/users/notifications/post').build();
         this.postHub.start().catch((error) => this.snackBarService.showErrorMessage(error));
 
         this.postHub.on('NewPost', (newPost: Post) => {
