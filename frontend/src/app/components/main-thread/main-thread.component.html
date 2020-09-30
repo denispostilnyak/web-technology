@@ -21,7 +21,7 @@
       <img mat-card-image class="post-image" *ngIf="imageUrl" mat-card-image src="{{imageUrl}}" alt="Photo">
     </div>
   </mat-card-content>
-  <mat-card-actions align="end">
+  <mat-card-actions>
     <input hidden #file accept="image/*" type="file" (change)="loadImage($event.target)">
     <button mat-icon-button color="accent" (click)="file.click()">
       <mat-icon aria-label="Choose an image">image</mat-icon>
@@ -40,12 +40,17 @@
   </div>
   <div class="main-thread">
     <div class="main-actions" *ngIf="currentUser">
-      <button mat-raised-button matTooltip="Write a post" (click)="toggleNewPostContainer()">
+      <button class="addPostButton" mat-raised-button matTooltip="Write a post" (click)="toggleNewPostContainer()">
         <mat-icon color="accent">add_comment</mat-icon>
       </button>
-      <mat-slide-toggle (change)="sliderChanged($event)">Only mine</mat-slide-toggle>
-      <mat-slide-toggle (change)="sliderCommonChanged($event)">Only common</mat-slide-toggle>
-      <mat-slide-toggle (change)="sliderLikeChanged($event)">Only i've liked</mat-slide-toggle>
+      <div class="row sliders">
+        <mat-slide-toggle class="slider" (change)="sliderChanged($event)">Only mine
+        </mat-slide-toggle>
+        <mat-slide-toggle class="slider" (change)="sliderCommonChanged($event)">Only common
+        </mat-slide-toggle>
+        <mat-slide-toggle class="slider" (change)="sliderLikeChanged($event)">Only i've liked
+        </mat-slide-toggle>
+      </div>
       <div>
         <button mat-icon-button color="white" (click)="showNotifications()">
           <mat-icon aria-label="Notifications">notifications
