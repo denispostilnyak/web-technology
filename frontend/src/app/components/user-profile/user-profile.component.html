@@ -31,7 +31,7 @@
       </div>
     </mat-form-field>
   </form>
-  <div class="buttons">
+  <div class="buttons row">
     <button [disabled]="email.invalid || username.invalid || !isUserNameUnique || !isEmailUnique" mat-raised-button
       color="primary" (click)="saveNewInfo()">
       Save
