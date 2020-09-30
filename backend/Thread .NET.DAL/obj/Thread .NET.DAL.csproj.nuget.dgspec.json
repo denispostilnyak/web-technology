@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {}
+    "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
+    "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
         "projectName": "Thread .NET.Common",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\obj\\",
+        "projectPath": "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj",
+        "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,24 +87,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
+    "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
         "projectName": "Thread .NET.DAL",
-        "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.DAL\\Thread .NET.DAL.csproj",
+        "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,8 +114,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
-                "projectPath": "C:\\Users\\Denis\\Desktop\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
+              "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj": {
+                "projectPath": "C:\\Users\\Work\\Documents\\web-technology\\backend\\Thread .NET.Common\\Thread .NET.Common.csproj"
               }
             }
           }
@@ -180,7 +174,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
